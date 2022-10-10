@@ -64,7 +64,7 @@ def UCSearch(start, goal, barrier):
     raise RuntimeError("UCS failed to find a solution")
 ```
 ### Experience:
-Working towards)
+Working towards... )
 
 ### Education:
 - **Bachelor degree,** Nazarbayev University, Astana
