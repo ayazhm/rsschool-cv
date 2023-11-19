@@ -6,7 +6,7 @@
 ayazhanmuhtar01@gmail.com
 
 <picture>
- <img alt="letter icon" src="/envelope-48986_1280.png" width="20"> 
+ <img alt="letter icon" src="/icone-de-telegramme-d-origine-symbole-logo.png" width="20"> 
 </picture>
 @ayazhvoyage
 
