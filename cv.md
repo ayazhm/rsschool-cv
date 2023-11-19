@@ -1,12 +1,12 @@
 # Ayazhan Mukhtar
 ### Contact info
 <picture>
- <img alt="letter icon" src="/envelope-48986_1280.png" width="20"> 
+ <img alt="letter icon" src="envelope-48986_1280.png" width="20"> 
 </picture>
 ayazhanmuhtar01@gmail.com
 
 <picture>
- <img alt="letter icon" src="/icone-de-telegramme-d-origine-symbole-logo.png" width="20"> 
+ <img alt="letter icon" src="icone-de-telegramme-d-origine-symbole-logo.png" width="20"> 
 </picture>
 @ayazhvoyage
 
@@ -37,5 +37,6 @@ I have experience working on Figma, Python, finished JavaScript course from frec
 ### Education 
 _2019-2025_ **Nazarbayev University**
 - Computer Science
+
 ### English 
 Level: Upper-intermediate
