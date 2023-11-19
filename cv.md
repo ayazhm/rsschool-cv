@@ -2,13 +2,11 @@
 ### Contact info
 <picture>
  <img alt="letter icon" src="envelope-48986_1280.png" width="20"> 
-</picture>
-ayazhanmuhtar01@gmail.com
+</picture>ayazhanmuhtar01@gmail.com
 
 <picture>
- <img alt="letter icon" src="icone-de-telegramme-d-origine-symbole-logo.png" width="20"> 
-</picture>
-@ayazhvoyage
+ <img alt="telegram icon" src="icone-de-telegramme-d-origine-symbole-logo.png" width="20"> 
+</picture>@ayazhvoyage
 
 ### Summary
 I would like to finish this course with maximum amount of information that I can get. 
