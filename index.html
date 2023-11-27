@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap" rel="stylesheet" type="text/css">
+        <title>Ayazhan CV</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h2> • Ayazhan Mukhtar / <span class="head">Junior Frontend Developer</span> <span> <a class="headlink" href="#contact">Contacts </a></span></h2>
+
+            </div>
+        </header>
+
+        <main name="hello" class="beginner">
+            <img class="robo" src="robo.png" alt="my image"/>
+            <div name="content" class="content">
+                <h1>Hello!</h1>
+                <h3>A Bit About Me</h3>
+                <p class="aboutme">I am currently studying at 
+                    university to get bachelor degree in Computer science. 
+                    My goal in RS School is to make a first step as a web-developer and become 
+                    qualified specialist in this area. I choose web-development as it combines hard skills in analysis 
+                    & coding with UX-UI design.</p> 
+            </div>
+        </main>
+        <div class="line"></div>
+        <div name="skills" class="resume">
+            <div>
+                <h3>Skills</h3>
+            </div>
+            <div class="topmargin">
+                <p>I am aquinted with basic concepts of the following languages:</p>
+                <ul>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>HTML&CSS</li>
+                </ul>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div name="education" class="resume">
+            <div>
+                <h3>Education</h3>
+            </div>
+            <div class="topmargin">
+                <ul>
+                    <li>Bachelor degree, Nazarbayev University, Astana
+                        <ul>
+                            <li>2019-2024</li>
+                            <li>Computer science</li>
+                        </ul>
+                    </li>
+                    <li>CodeAcademy, online
+                        <ul>
+                            <li>2022</li>
+                            <li>Course name: Introduction to HTML & CSS</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div name="languages" class="resume">
+            <div>
+                <h3>Languages</h3>
+            </div>
+            <div class="topmargin">
+                <ul>
+                    <li>Kazakh - Native Speaker</li>
+                    <li>English - Advanced</li>
+                    <li>Russian - Advanced</li>
+                </ul>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div name="code" class="resume">
+            <div>
+                <h3>Code Example</h3>
+            </div>
+            <div class="topmargin">
+                <p>The following function implements Dijkstra Search</p>
+                <p ><pre class="example">
+
+        def UCSearch(start, goal, barrier):
+        G = {}
+        G[start] = 0
+        expandedNodes = set()
+        fringe = set([start])
+
+        parent = {}
+
+        while len(fringe) > 0:
+            #Pick the node in the fringe with the lowest G score
+            curNode = None # initialize the current node.
+            curGscore = None # initialize the G score of current node
+
+            for pos in fringe:
+                if curNode is None or G[pos] < curGscore:
+                    curGscore = G[pos]
+                    curNode = pos
+            fringe.remove(curNode)
+
+            #Check if our robot has reached the goal
+            if curNode == goal:
+                #Retrace our path backward
+                path = [curNode]
+                while curNode in parent:
+                    curNode = parent[curNode]
+                    path.append(curNode)
+                path.reverse()
+                return path, expandedNodes, G[goal] #Done!
+
+            if curNode != goal:
+                expandedNodes.add(curNode)
+                children = get_neighbors(curNode)
+                for child in children:
+                    if child not in expandedNodes:
+                        cost = move_cost(child, barrier)
+                        if child in fringe:
+                            temp = G[child]
+                            if G[curNode] + cost < temp:
+                                G[child] = G[curNode] + cost
+                                parent[child] = curNode
+                        if child not in fringe:
+                            fringe.add(child)
+                            G[child] = curGscore + cost
+                            parent[child] = curNode
+
+        raise RuntimeError("UCS failed to find a solution")</p>
+                    </pre>
+            </div>
+        </div>
+         <div class="line"></div>
+        <div name="contacts" id="contact" class="resume">
+            <div>
+                <h3>Contact Info</h3>
+            </div>
+            <div class="top">
+                <li>E-mail: ayazhan@gmail.com</li>
+            </div>
+            <div class="top">
+                <li>Linked In: ayazhan</li>
+            </div>
+        </div>
+        <div class="line"></div>
+
+        <footer>
+            <h3 class="github1">GitHub: <a class="github" href="https://github.com/ayazhm">ayazhm</a></h3>
+            <h2 class="foo">28.11.23</h2>
+            <a href="https://rs.school/js/" target="_blank"><img class="logo" src="logo.png" alt="Git" class = "rs"/>
+        </footer>
+    </body>
+    
+</html>

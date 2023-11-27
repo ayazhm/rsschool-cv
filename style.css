@@ -1,0 +1,120 @@
+
+body {
+    background-color: #00072d;
+    color: #ffffff;
+    font-family: Lora;
+}
+
+.header {
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 15 px;
+    font-family: Lora;
+}
+span.head {
+    display: inline-block;
+    width: 64%;
+    font-size: 17px;
+    font-family: Lora;
+}
+a.headlink {
+    font-size: 17px;
+    font-family: Lora;
+    color: #fff;
+}
+
+.beginner {
+    margin: auto;
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 210px;
+}
+.robo {
+    height: 350px;
+    filter: brightness(70%);
+    border: 7px solid #fff;
+    border-radius: 50%;
+    
+}
+
+h1 {
+    font-size: 62px;
+    font-family: Lora;
+    font-style: italic;
+
+}
+h3 {
+    font-size: 24px;
+    font-family: Lora;
+}
+.aboutme{
+    font-size: 15px;
+    font-family: Lora;
+}
+.content {
+    width: 55%;
+    display: inline-block;
+    margin-left: 40px;
+    text-align: justify; 
+    
+}
+
+.resume{
+    display: flex;
+
+    align-content: center;
+    Justify-content: center;
+    margin-left: 250px;
+    width: 80%;
+}
+
+.resume div{
+    align-items: center;
+    width: 70%;
+}
+.topmargin {
+    margin-top: 13px;
+}
+.line{
+    background-color: #05386B;
+    height: 2px;
+    margin: auto; 
+    width: 80%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+pre.example {
+    background-color: #379683;
+    color:aliceblue; 
+}
+
+.top {
+    margin-top: 30px;
+}
+
+a{
+    color:#05386B;
+
+}
+.rs{
+    height: 80px;
+    margin:auto; 
+    width: 99%;
+}
+
+.foo{
+    margin:auto; 
+    width: 10%;
+    color: #fff;
+}
+
+a.github{
+    color:#ffff;
+}
+
+
+.logo{
+    width: 150px;
+    margin-left: 640px;
+    opacity: 80%;
+}
