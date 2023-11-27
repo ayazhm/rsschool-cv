@@ -14,7 +14,7 @@
         </header>
 
         <main class="beginner">
-            <img class="robo" src="robo.png" alt="my image"/>
+            <img class="robo" src="robo.png" alt="my image">
             <div class="content">
                 <h1>Hello!</h1>
                 <h3>A Bit About Me</h3>
@@ -76,7 +76,7 @@
             </div>
         </div>
         <div class="line"></div>
-        <div name="code" class="resume">
+        <div class="resume">
             <div>
                 <h3>Code Example</h3>
             </div>
@@ -98,7 +98,7 @@
             curGscore = None # initialize the G score of current node
 
             for pos in fringe:
-                if curNode is None or G[pos] < curGscore:
+                if curNode is None or G[pos] <curGscore:
                     curGscore = G[pos]
                     curNode = pos
             fringe.remove(curNode)
@@ -121,7 +121,7 @@
                         cost = move_cost(child, barrier)
                         if child in fringe:
                             temp = G[child]
-                            if G[curNode] + cost < temp:
+                            if G[curNode] + cost <temp:
                                 G[child] = G[curNode] + cost
                                 parent[child] = curNode
                         if child not in fringe:
@@ -131,7 +131,6 @@
 
         raise RuntimeError("UCS failed to find a solution")
                     </pre>
-                </p>
             </div>
         </div>
          <div class="line"></div>
@@ -151,7 +150,7 @@
         <footer>
             <h3 class="github1">GitHub: <a class="github" href="https://github.com/ayazhm">ayazhm</a></h3>
             <h2 class="foo">28.11.23</h2>
-            <a href="https://rs.school/js/" target="_blank"><img class="logo rs" src="logo.png" alt="Git" /> </a>
+            <a href="https://rs.school/js/" target="_blank"><img class="logo rs" src="logo.png" alt="Git"> </a>
         </footer>
     </body>
     
