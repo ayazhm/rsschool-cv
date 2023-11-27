@@ -108,13 +108,18 @@ a{
     color: #fff;
 }
 
-a.github{
+.github1{
     color:#ffff;
+    margin-left: 640px;
 }
 
+.github{
+    color:#ffff;
+}
 
 .logo{
     width: 150px;
     margin-left: 640px;
     opacity: 80%;
 }
+
